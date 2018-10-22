@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "xo",
-    "import-data": "./lib/import/index.js",
+    "import-data": "node --max_old_space_size=4096 ./lib/import/index.js",
     "start": "node lib/api"
   },
   "dependencies": {
