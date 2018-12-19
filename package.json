@@ -34,7 +34,8 @@
     "mongodb": "^3.1.8",
     "pump": "^3.0.0",
     "pumpify": "^1.5.1",
-    "through2": "^2.0.3"
+    "through2": "^2.0.3",
+    "write-json-file": "^3.0.2"
   },
   "devDependencies": {
     "xo": "^0.23.0"
